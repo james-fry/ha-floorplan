@@ -2,7 +2,6 @@
 
 svg, svg * {
   vector-effect: non-scaling-stroke !important;
-  pointer-events: all !important;
 }
 
 /* Hover over */
@@ -15,54 +14,58 @@ svg, svg * {
 
 /* Bootstrap succsss */
 
-.success-text {
-  fill: #3c763d !important;
+.success-light {
+  fill: #dff0d8 !important;
 }
 
-.success-background, .success-text-background {
-  fill: #dff0d8 !important;
-  fill-opacity: 1 !important;
-  stroke: #d6e9c6 !important;
-  stroke-width: 1px !important;
+.success-medium {
+  fill: #d6e9c6 !important;
+}
+
+.success-dark {
+  fill: #3c763d !important;
 }
 
 /* Bootstrap info */
 
-.info-text {
-  fill: #31708f !important;
+.info-light {
+  fill: #bce8f1 !important;
 }
 
-.info-background, .info-text-background {
+.info-medium {
   fill: #d9edf7 !important;
-  fill-opacity: 1 !important;
-  stroke: #bce8f1 !important;
-  stroke-width: 1px !important;
+}
+
+.info-dark {
+  fill: #31708f !important;
 }
 
 /* Bootstrap warning */
 
-.warning-text {
-  fill: #8a6d3b !important;
+.warning-light {
+  fill: #faebcc !important;
 }
 
-.warning-background, .warning-text-background  {
+.warning-medium {
   fill: #fcf8e3 !important;
-  fill-opacity: 1 !important;
-  stroke: #faebcc !important;
-  stroke-width: 1px !important;
+}
+
+.warning-dark {
+  fill: #8a6d3b !important;
 }
 
 /* Bootstrap danger */
 
-.danger-text {
-  fill: #a94442 !important;
+.danger-light {
+  fill: #ebccd1 !important;
 }
 
-.danger-background, .danger-text-background {
+.danger-medium {
   fill: #f2dede !important;
-  fill-opacity: 1 !important;
-  stroke: #ebccd1 !important;
-  stroke-width: 1px !important;
+}
+
+.danger-dark {
+  fill: #a94442 !important;
 }
 
 /* Last motion entity */
@@ -86,18 +89,17 @@ svg, svg * {
 /* Camera */
 
 .camera-idle {
-/*  fill: #B9CEF7 !important; */
-  fill: #6FAECE !important;
+  fill: #B9CEF7 !important;
 }
 
 /* Light */
 
 .light-off {
-  fill: #C3B7F4 !important;
+  fill: #44739e !important;
 }
 
 .light-on {
-  fill: #F8D2B9 !important;
+  fill: #fdd835 !important;
 }
 
 /* Doorbell */
@@ -112,32 +114,14 @@ svg, svg * {
 
 /* Temperature sensor */
 
-.temp-very-low-background {
-  fill: #d9edf7 !important;
-  fill-opacity: 1 !important;
+.temp-low {
+  fill: #0000FF !important;
 }
 
-.temp-below-average-background {
-  fill: #dcefe8 !important;
-  fill-opacity: 1 !important;
+.temp-medium {
+  fill: #000000 !important;
 }
 
-.temp-average-background {
-  fill: #dff0d8 !important;
-  fill-opacity: 1 !important;
-}
-
-.temp-very-high-background {
-  fill: #f2dede !important;
-  fill-opacity: 1 !important;
-}
-
-/* Media player */
-
-.squeezebox-off {
-  fill: #8AA8A7 !important;
-}
-
-.squeezebox-on {
-  fill: #2baaa6 !important;
+.temp-high {
+  fill: #FF0000 !important;
 }
